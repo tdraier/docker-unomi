@@ -1,4 +1,4 @@
-FROM ubuntu-java
+FROM tdraier/ubuntu-java
 MAINTAINER tdraier@jahia.com
 
 COPY context-server-package-1.0-SNAPSHOT.tar.gz /home/jahia/context-server-package-1.0-SNAPSHOT.tar.gz
