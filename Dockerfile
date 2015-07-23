@@ -1,7 +1,6 @@
 FROM tdraier/ubuntu-java
 MAINTAINER tdraier@jahia.com
 
-COPY context-server-package-1.0-SNAPSHOT.tar.gz /home/jahia/context-server-package-1.0-SNAPSHOT.tar.gz
 COPY install.sh /home/jahia/install.sh
 COPY startWithIp.sh /home/jahia/startWithIp.sh
 USER root
